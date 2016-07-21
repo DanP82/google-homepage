@@ -1,0 +1,162 @@
+body {
+
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	display: inline;
+}
+
+a:hover li {
+
+    text-decoration: underline;
+}
+
+#header {
+
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+
+.headerLinks li {
+
+	color: #000000;
+	margin-top: 14px;
+	padding: 10px;
+	float: right;
+}
+
+#signinButton {
+
+	color: white;
+	background-color: #4285f4;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 2px;
+	margin-right: 21px;
+	padding: 7px 13px 7px 13px;
+	display: inline;
+}
+
+#signinButton:hover {
+
+	cursor: default;
+}
+
+#logo img {
+
+	margin: auto;
+	padding-top: 147px;
+	width: 270px;
+	height: 92px;
+	display: block;	
+	clear: both;
+}
+
+input {
+
+	font-size: 18px;
+	margin: 28px 0px 42px 0px;
+	width: 580px;
+	height: 36px;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+
+input:hover {
+
+	border: 1px solid #aba8a8;
+}
+
+input:focus {
+
+	outline: none;
+	border: 1px solid #4285f4;
+	text-indent: 10px;
+}
+
+#searchButton {
+
+	color: #757575;
+	background-color: #F3F3F3;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	width: 100px;
+	height: 16px;
+	margin: 2px;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	padding: 10px 17px 10px 17px;
+	display: inline;
+}
+
+#searchButton:hover {
+
+	color: #000000;
+	border: 1px solid #c9c9c9;
+	cursor: default;
+}
+
+#luckyButton {
+
+	color: #757575;
+	background-color: #F3F3F3;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	width: 130px;
+	height: 16px;
+	margin: 2px;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	padding: 10px 17px 10px 17px;
+	display: inline;
+}
+
+#luckyButton:hover {
+
+	color: #000000;
+	border: 1px solid #c9c9c9;
+	cursor: default;
+}
+
+.footer {
+
+	background-color: #F3F3F3;
+	border-top: 1px solid #e5e5e5;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+.footerLinks_left li {
+
+	color: #757575;
+    display: inline;
+    float: left;
+    padding: 4px;
+    margin-top: 9px;
+    margin-left: 24px
+}
+
+.footerLinks_right li {
+
+	color: #757575;
+    display: inline;
+    float: right;
+    padding: 4px;
+    margin-top: 9px;
+    margin-right: 24px;
+}
+
+
+.center {
+
+	text-align: center;
+}
