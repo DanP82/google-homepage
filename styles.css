@@ -10,11 +10,15 @@ a:hover li {
     text-decoration: underline;
 }
 
+.center {
+
+	text-align: center;
+}
+
 #header {
 
 	height: 50px;
 	width: 100%;
-	position: relative;
 }
 
 .headerLinks li {
@@ -75,7 +79,7 @@ input:focus {
 	text-indent: 10px;
 }
 
-#searchButton {
+.button {
 
 	color: #757575;
 	background-color: #F3F3F3;
@@ -92,31 +96,7 @@ input:focus {
 	display: inline;
 }
 
-#searchButton:hover {
-
-	color: #000000;
-	border: 1px solid #c9c9c9;
-	cursor: default;
-}
-
-#luckyButton {
-
-	color: #757575;
-	background-color: #F3F3F3;
-	font-size: 14px;
-	font-family: Arial, sans-serif;
-	font-weight: bold;
-	text-align: center;
-	width: 130px;
-	height: 16px;
-	margin: 2px;
-	border: 1px solid transparent;
-	border-radius: 2px;
-	padding: 10px 17px 10px 17px;
-	display: inline;
-}
-
-#luckyButton:hover {
+.button:hover {
 
 	color: #000000;
 	border: 1px solid #c9c9c9;
@@ -151,10 +131,4 @@ input:focus {
     padding: 4px;
     margin-top: 9px;
     margin-right: 24px;
-}
-
-
-.center {
-
-	text-align: center;
 }
